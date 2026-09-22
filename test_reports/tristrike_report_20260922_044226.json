@@ -1,0 +1,127 @@
+{
+  "target": "https://preview.owasp-juice.shop",
+  "scan_time_seconds": 25.34,
+  "recon": {
+    "subdomains": [
+      "preview.owasp-juice.shop"
+    ],
+    "live_hosts": [
+      "https://preview.owasp-juice.shop"
+    ],
+    "open_ports": [
+      80,
+      443,
+      8080
+    ],
+    "tech_stack": []
+  },
+  "discovery": {
+    "all_endpoints": [
+      "https://preview.owasp-juice.shop/assets/public/favicon_js.ico",
+      "https://preview.owasp-juice.shop/polyfills.js",
+      "https://preview.owasp-juice.shop/register",
+      "https://preview.owasp-juice.shop/chunk-CNrKxer-.js",
+      "https://preview.owasp-juice.shop/api/Users",
+      "https://preview.owasp-juice.shop/config.json",
+      "https://preview.owasp-juice.shop/main.js",
+      "https://preview.owasp-juice.shop/chunk-a8UIf5We.js",
+      "https://preview.owasp-juice.shop/api/Feedbacks",
+      "https://preview.owasp-juice.shop/robots.txt",
+      "https://preview.owasp-juice.shop/rest/products/search",
+      "https://preview.owasp-juice.shop/chunk-DBPdFzgj.js",
+      "https://preview.owasp-juice.shop/styles.css",
+      "https://preview.owasp-juice.shop/sitemap.xml",
+      "https://preview.owasp-juice.shop/login",
+      "https://preview.owasp-juice.shop/rest/admin/application-version",
+      "https://preview.owasp-juice.shop/.well-known/security.txt",
+      "https://preview.owasp-juice.shop/api/BasketItems",
+      "https://preview.owasp-juice.shop/swagger.json",
+      "https://preview.owasp-juice.shop/graphql",
+      "https://preview.owasp-juice.shop/scripts.js",
+      "https://preview.owasp-juice.shop/admin",
+      "https://preview.owasp-juice.shop/rolldown-runtime-BoHGiXSq.js",
+      "https://preview.owasp-juice.shop/api/Products"
+    ],
+    "param_endpoints": [
+      "https://preview.owasp-juice.shop/rest/products/search?q=apple"
+    ],
+    "hidden_paths": [
+      {
+        "path": "https://preview.owasp-juice.shop/robots.txt",
+        "status": 200,
+        "size": 28
+      },
+      {
+        "path": "https://preview.owasp-juice.shop/sitemap.xml",
+        "status": 200,
+        "size": 9608
+      },
+      {
+        "path": "https://preview.owasp-juice.shop/.well-known/security.txt",
+        "status": 200,
+        "size": 479
+      },
+      {
+        "path": "https://preview.owasp-juice.shop/api/Products",
+        "status": 200,
+        "size": 16011
+      },
+      {
+        "path": "https://preview.owasp-juice.shop/api/Users",
+        "status": 401,
+        "size": 972
+      },
+      {
+        "path": "https://preview.owasp-juice.shop/api/BasketItems",
+        "status": 401,
+        "size": 972
+      },
+      {
+        "path": "https://preview.owasp-juice.shop/api/Feedbacks",
+        "status": 200,
+        "size": 1734
+      },
+      {
+        "path": "https://preview.owasp-juice.shop/rest/products/search",
+        "status": 200,
+        "size": 16563
+      },
+      {
+        "path": "https://preview.owasp-juice.shop/rest/admin/application-version",
+        "status": 200,
+        "size": 29
+      },
+      {
+        "path": "https://preview.owasp-juice.shop/admin",
+        "status": 200,
+        "size": 9608
+      },
+      {
+        "path": "https://preview.owasp-juice.shop/swagger.json",
+        "status": 200,
+        "size": 9608
+      },
+      {
+        "path": "https://preview.owasp-juice.shop/graphql",
+        "status": 200,
+        "size": 9608
+      },
+      {
+        "path": "https://preview.owasp-juice.shop/login",
+        "status": 200,
+        "size": 9608
+      },
+      {
+        "path": "https://preview.owasp-juice.shop/register",
+        "status": 200,
+        "size": 9608
+      },
+      {
+        "path": "https://preview.owasp-juice.shop/config.json",
+        "status": 200,
+        "size": 9608
+      }
+    ]
+  },
+  "findings": []
+}
